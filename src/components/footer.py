@@ -1,26 +1,42 @@
+
 import streamlit as st
 
 
 def footer_home():
-   
-    logo_url = "https://i.ibb.co/4r5X1FY/apnacollege.png"
-
-    st.markdown(f"""
-        <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; items-align:center">
-            <p style="font-weight:bold; color:white;"> Created with ❤️ by </p>
-            <img src='{logo_url}' style='max-height:25px' />
+    st.markdown("""
+        <div style="
+            margin-top: 40px;
+            padding: 12px;
+            text-align: center;
+            color: #E0E3FF;
+            font-size: 13px;
+            line-height: 1.8;
+        ">
+            <div style="font-size: 20px; font-weight: 800;">
+                AttendIQ
+            </div>
+            <div>
+                Smarter Attendance. Powered by AI.
+            </div>
+            <div style="font-size: 11px; opacity: 0.8;">
+                © 2026 AttendIQ
+            </div>
         </div>
-        """, unsafe_allow_html=True)
-
+    """, unsafe_allow_html=True)
 
 
 def footer_dashboard():
-   
-    logo_url = "https://i.ibb.co/4r5X1FY/apnacollege.png"
-
-    st.markdown(f"""
-        <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; items-align:center">
-            <p style="font-weight:bold; color:black;"> Created with ❤️ by </p>
-            <img src='{logo_url}' style='max-height:25px' />
+    st.markdown("""
+        <div style="
+            margin-top: 28px;
+            padding: 10px;
+            text-align: center;
+            color: #5865F2;
+            font-size: 12px;
+        ">
+            AttendIQ
+            <span style="color: #687493;">
+                | Smart Attendance System
+            </span>
         </div>
-        """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
